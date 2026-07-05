@@ -39,8 +39,15 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    # Third-party apps
     'rest_framework',
     'rest_framework_simplejwt',
+    
+    # Local apps
+    'accounts',
+    'patients',
+    'doctors',
+    'mappings',
 ]
 
 MIDDLEWARE = [
